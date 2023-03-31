@@ -27,3 +27,8 @@ Freebie.create(item_name: "Mug", value: 1.99, dev_id: 4, company_id: 4)
 Freebie.create(item_name: "Laptop", value: 700, dev_id: 4, company_id: 2)
 
 puts "Seeding done!"
+
+google = Company.first
+facebook = Company.second
+dunder = Company.third
+enron = Company.fourth
