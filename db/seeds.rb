@@ -17,13 +17,13 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
-Freebie.create(name: "Notebook", value: 5, dev_id: 1, company_id: 1)
-Freebie.create(name: "Stress Ball", value: 2, dev_id: 1, company_id: 3)
-Freebie.create(name: "Hoodie", value: 10, dev_id: 2, company_id: 2)
-Freebie.create(name: "Tablet", value: 500, dev_id: 2, company_id: 1)
-Freebie.create(name: "Watch", value: 4.99, dev_id: 3, company_id: 4)
-Freebie.create(name: "Water Bottle", value: 2, dev_id: 3, company_id: 3)
-Freebie.create(name: "Mug", value: 1.99, dev_id: 4, company_id: 4)
-Freebie.create(name: "Laptop", value: 700, dev_id: 4, company_id: 2)
+Freebie.create(item_name: "Notebook", value: 5, dev_id: 1, company_id: 1)
+Freebie.create(item_name: "Stress Ball", value: 2, dev_id: 1, company_id: 3)
+Freebie.create(item_name: "Hoodie", value: 10, dev_id: 2, company_id: 2)
+Freebie.create(item_name: "Tablet", value: 500, dev_id: 2, company_id: 1)
+Freebie.create(item_name: "Watch", value: 4.99, dev_id: 3, company_id: 4)
+Freebie.create(item_name: "Water Bottle", value: 2, dev_id: 3, company_id: 3)
+Freebie.create(item_name: "Mug", value: 1.99, dev_id: 4, company_id: 4)
+Freebie.create(item_name: "Laptop", value: 700, dev_id: 4, company_id: 2)
 
 puts "Seeding done!"
